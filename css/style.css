@@ -449,7 +449,7 @@ button {
 }
 
 .service-section .service-item {
-    flex: 0 0 30%;
+    flex: 0 0 33%;
     max-width: 33%;
     padding: 15px;
 }
@@ -678,7 +678,7 @@ button {
 
 .contact-section .contact-img .img-box {
     padding: 200px 0;
-    background-image: url("/img/home-bg1.JPG");
+    background-image: url("/img/home-bg1.png");
     background-size: cover;
     background-position: center;
 }
