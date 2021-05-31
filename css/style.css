@@ -678,9 +678,12 @@ button {
 
 .contact-section .contact-img .img-box {
     padding: 200px 0;
+    min-height: 500px; 
     background-image: url("/img/home-bg1.png");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .contact-section .section-title {
@@ -689,10 +692,12 @@ button {
 
 .contact-section .section-title h1 {
     color: var(--light);
+    text-shadow: var(--shadow);
 }
 
 .contact-section .section-title h1:before {
     background-color:var(--light);
+    text-shadow: var(--shadow);
     left: 50%;
     margin-left: -40px;
 }
